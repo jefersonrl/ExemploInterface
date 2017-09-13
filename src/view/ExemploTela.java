@@ -49,6 +49,7 @@ public class ExemploTela extends JFrame{
 		lblTelefone.setBounds(20, 90, 80, 20);
 		paine.add(lblTelefone);
 		
+		///Conceito de TRY CATH
 		try {  
 			formatTel = new MaskFormatter("(##)#####-####");
 			txtTelefone = new JFormattedTextField(formatTel);
